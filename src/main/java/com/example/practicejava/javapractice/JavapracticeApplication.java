@@ -1,5 +1,6 @@
 package com.example.practicejava.javapractice;
 
+import com.example.practicejava.javapractice.problem7.Main;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,4 +1,4 @@
-package com.example.practicejava.javapractice;
+package com.example.practicejava.javapractice.problem7;
 
 public class Book implements Cloneable {
     int bookId;

@@ -1,4 +1,4 @@
-package com.example.practicejava.javapractice;
+package com.example.practicejava.javapractice.problem7;
 
 public class Main {
     public void executeAll() throws CloneNotSupportedException{
