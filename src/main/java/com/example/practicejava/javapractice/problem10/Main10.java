@@ -18,11 +18,6 @@ public class Main10 {
     groupByLocation.forEach((location,Employee)->{
         System.out.println("Location "+location);
     });
-
-
-
-
-
     }
     public void sortSalary() {
         Optional<Employee> st = employee.stream().
@@ -57,6 +52,10 @@ public class Main10 {
                 .filter(e->e.getSalary()<=40000)
                 .forEach(e->System.out.println(e.getFirstName()));
     }
-
+    public void filterByLocation(){
+        employee.stream()
+                .filter(e->e.getLocation().equals("Mumbai"))
+                .forEach(e->System.out.println(e.getFirstName()));
+    }
 
 }
