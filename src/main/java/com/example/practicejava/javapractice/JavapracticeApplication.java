@@ -1,5 +1,6 @@
 package com.example.practicejava.javapractice;
 
+import com.example.practicejava.javapractice.problem10.Main10;
 import com.example.practicejava.javapractice.problem16.Main16;
 import com.example.practicejava.javapractice.problem7.Main;
 import org.springframework.boot.SpringApplication;
@@ -10,8 +11,9 @@ public class JavapracticeApplication {
 
 	public static void main(String[] args) throws CloneNotSupportedException {
 		SpringApplication.run(JavapracticeApplication.class, args);
-		Main16 m=new Main16();
-		m.executeAll();
+		Main10 m=new Main10();
+		m.groupByLocation();
+
 	}
 
 }
