@@ -2,6 +2,8 @@ package com.example.practicejava.javapractice;
 
 import com.example.practicejava.javapractice.problem10.Main10;
 import com.example.practicejava.javapractice.problem12.Main12;
+
+import com.example.practicejava.javapractice.problem14.ExpressionValidation;
 import com.example.practicejava.javapractice.problem15.Onion;
 import com.example.practicejava.javapractice.problem15.PanPizza;
 import com.example.practicejava.javapractice.problem15.Pizza;
@@ -20,8 +22,11 @@ public class JavapracticeApplication {
 //		Pizza piz1=new PanPizza(100);
 //		Pizza piz=new Onion(piz1,70);
 //		System.out.println(piz.getDetails());
-		Main12 m12=new Main12();
-		m12.executeAll();
+//		Main12 m12=new Main12();
+//		m12.executeAll();
+
+		ExpressionValidation validate=new ExpressionValidation();
+		validate.infixToPostfix("(5 + 6) * 2");
 
 	}
 
